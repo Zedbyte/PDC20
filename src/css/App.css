@@ -1,0 +1,32 @@
+.app__container {
+    height: 100dvh;
+    gap: 0 !important;
+}
+
+.image__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+    border-left: solid 1px black;
+}
+
+.image__container > img {
+ height: 20rem;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.logo.bounce {
+    animation: bounce 2s infinite;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input:not([type="checkbox"]), select {
+    padding: 0 20px !important;
+    height: 40px !important;
+}
+
+label {
+    font-size: clamp(7px, 0.8rem, 3rem);
+}
+
+.parent__container {
+    padding: 1rem 4rem;
+    overflow: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header > hgroup > h2, p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
